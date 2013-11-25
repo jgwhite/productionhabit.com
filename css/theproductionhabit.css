@@ -1,0 +1,288 @@
+@font-face {
+	font-family: 'TradeGothicBoldCondensedNo.20';
+	src: url('tradegothic-boldcondtwenty-webfont.eot');
+	src: local('☺'), url('tradegothic-boldcondtwenty-webfont.woff') format('woff'), url('tradegothic-boldcondtwenty-webfont.ttf') format('truetype'), url('tradegothic-boldcondtwenty-webfont.svg#webfontt0Xu0R8O') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+html {
+  display: block;
+  padding: 0;
+  background: #fff;
+
+  position: relative;
+  margin: 0;
+
+}
+
+body {
+  display: block;
+  width: 1024px; height: 764px;
+  padding: 0;
+
+  position: relative;
+  margin: 0 auto;
+
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 9px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  outline: 0 none; border: 0 none;
+}
+a:hover {
+  color: #e2007a;
+}
+
+#masthead {
+  display: block;
+  position: relative;
+  margin: 0 0 20px; padding: 0;
+  width: 736px; height: 346px;
+  text-indent: -10000px;
+  overflow: hidden;
+  text-transform: uppercase;
+  font-size: 12.18181818em; line-height: 0.83;
+  letter-spacing: 13px;
+  color: #000;
+}
+
+#about {
+  display: block;
+  position: relative;
+  margin: 0 0 20px;
+
+  border: 7px solid #e2007a;
+  width: 516px;
+  padding: 23px 13px 54px 13px;
+
+  background: #fff;
+  color: #000;
+  font-size: 3em;
+  line-height: 1.175;
+}
+  .first-letter {
+    display: block;
+    position: relative;
+    margin: 4px 10px 0 13px;
+    float: left;
+  }
+  .close-button {
+    display: none;
+    position: absolute;
+    right: 29px; bottom: 24px;
+    width: 48px; height: 48px;
+    overflow: hidden;
+    text-indent: -1000px;
+    background: url(../images/cross.png) no-repeat 0 0;
+  }
+
+#contact {
+  display: block;
+  position: relative;
+  margin: 0;
+
+  border: 5px solid #e2007a;
+  width: 439px;
+  padding: 99px 18px 79px 18px;
+
+  background: #fff;
+  color: #000;
+  font-size: 3em;
+  line-height: 1.175;
+}
+  .envelope-badge {
+    display: block;
+    position: absolute;
+    left: 15px; top: 12px;
+  }
+  .credit {
+    display: block;
+    margin: 0; padding: 0;
+    position: absolute;
+    left: 18px; bottom: 12px;
+    color: #9C9E9F;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 9px;
+  }
+    .credit a {
+      color: #9C9E9F;
+    }
+    .credit a:hover {
+      color: #e2007a;
+    }
+  #contact .close-button {
+    right: 17px; bottom: 12px;
+  }
+
+.fixed-button {
+  display: none;
+}
+
+.active body {
+  width: 100%; height: 100%;
+}
+
+html.active {
+  width: 100%; height: 100%;
+}
+
+.active #masthead {
+  display: none;
+}
+
+.active #about {
+  position: absolute;
+  right: 64px; top: 50%;
+  margin-top: -274px;
+  visibility: hidden;
+  z-index: 60;
+}
+.active #about.visible {
+  visibility: visible;
+}
+
+.active #contact {
+  position: absolute;
+  left: 132px; top: 50%;
+  margin-top: -170px;
+  visibility: hidden;
+  z-index: 61;
+}
+.active #contact.visible {
+  visibility: visible;
+}
+
+.active .close-button {
+  display: block;
+}
+
+.active .fixed-button {
+  display: block;
+  position: absolute;
+  overflow: hidden;
+  text-indent: -1000px;
+}
+
+.active #contact-button {
+  width: 91px; height: 94px;
+  background: url(../images/envelope.png) no-repeat 0 0;
+  bottom: 39px; left: 23px;
+  z-index: 50;
+}
+.active #about-button {
+  width: 30px; height: 65px;
+  background: url(../images/question-mark.png) no-repeat 0 0;
+  bottom: 42px; right: 23px;
+  z-index: 51;
+}
+
+#scene-view {
+  display: block;
+  margin: 0; padding: 0;
+  position: absolute;
+  width: 100%; height: 100%;
+}
+
+.arrow {
+  display: block;
+  margin: 0; padding: 0;
+  position: absolute;
+  top: 50%; margin-top: -72px;
+  background-image: url(../images/arrows.png);
+  width: 100px; height: 143px;
+  overflow: hidden;
+  text-indent: -1000px;
+}
+#arrow-prev {
+  left: 10px;
+}
+#arrow-next {
+  right: 10px;
+  background-position: -100px 0px;
+  background-position-x: -100px;
+}
+
+#scene-logo {
+  display: block;
+  position: absolute;
+  margin: 0; padding: 0;
+  width: 736px; height: 346px;
+  overflow: hidden;
+  top: 50%; left: 50%;
+  margin-left: -368px; margin-top: -173px;
+}
+  #scene-logo-text {
+    display: block;
+    position: absolute;
+    margin: 0; padding: 0;
+    width: 727px; height: 210px;
+    overflow: hidden;
+    background: url(../images/logo-text.png) no-repeat 0 0;
+    left: 10px; top: 137px;
+  }
+  #scene-logo-arrow {
+    display: block;
+    position: absolute;
+    margin: 0; padding: 0;
+    width: 86px; height: 123px;
+    overflow: hidden;
+    background: url(../images/logo-shape-arrow.png) no-repeat 0 0;
+    left: 0; top: 0;
+  }
+  #scene-logo-circles {
+    display: block;
+    position: absolute;
+    margin: 0; padding: 0;
+    width: 129px; height: 123px;
+    overflow: hidden;
+    background: url(../images/logo-shape-circles.png) no-repeat 0 0;
+    left: 100px; top: 0;
+  }
+  #scene-logo-triangle {
+    display: block;
+    position: absolute;
+    margin: 0; padding: 0;
+    width: 145px; height: 123px;
+    overflow: hidden;
+    background: url(../images/logo-shape-triangle.png) no-repeat 0 0;
+    left: 239px; top: 1px;
+  }
+#scene-circles {
+  display: block;
+  position: absolute;
+  margin: 0; padding: 0;
+  width: 723px; height: 476px;
+  overflow: hidden;
+  background: url(../images/knowledge-skills-desire.png) no-repeat 0 0;
+  top: 50%; left: 50%;
+  margin-left: -362px; margin-top: -238px;
+}
+#scene-habit {
+  display: block;
+  position: absolute;
+  margin: 0; padding: 0;
+  width: 619px; height: 145px;
+  overflow: hidden;
+  background: url(../images/habits.png) no-repeat 0 0;
+  top: 50%; left: 50%;
+  margin-left: -310px; margin-top: -72px;
+}
+
+
+.fontface body {
+  font-family: 'TradeGothicBoldCondensedNo.20';
+  font-size: 11px;
+}
+
+#template {
+  display: block;
+
+  position: absolute;
+  left: 0; top: 0;
+  z-index: -1;
+  opacity: 0.25;
+}
